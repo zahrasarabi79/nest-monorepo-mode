@@ -19,6 +19,24 @@
         "tsConfigPath": "apps/logging-service/tsconfig.app.json"
       }
     },
+    "rider-service": {
+      "type": "application",
+      "root": "apps/rider-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/rider-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/rider-service/tsconfig.app.json"
+      }
+    },
+    "rider-services": {
+      "type": "application",
+      "root": "apps/rider-services",
+      "entryFile": "main",
+      "sourceRoot": "apps/rider-services/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/rider-services/tsconfig.app.json"
+      }
+    },
     "uber-services": {
       "type": "application",
       "root": "apps/uber-services",
