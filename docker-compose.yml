@@ -1,0 +1,15 @@
+# postgres ,Mongodb ,redis ,elasticsearch ,kibana ,mysql
+#defind all containers
+version: '3.8'
+#name of the service
+services:
+  some-mongo:
+    image: mongo
+    #container automaticly restart
+    restart: always
+    #definf envirnoment variable
+    environment:
+      MONGO_INITDB_ROOT_USERNAME:
+      MONGO_INITDB_ROOT_PASSWORD:
+  # ports:
+  #   - 27017: 27017

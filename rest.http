@@ -1,0 +1,12 @@
+### GET RIDER COORDINATES
+GET http://localhost:3002/rider-coordinates
+
+###POST RIDER COORDINATES
+POST http://localhost:3002/rider-coordinates
+Content-Type: application/json
+
+{ 
+    "lng":123.33,
+    "lat":51.24,
+    "riderId":"1"
+}
